@@ -13,7 +13,7 @@ module.exports = {
           border: color.neutral[400],
           text: color.neutral[700],
           dark: color.neutral[800],
-          ["dark-hover"]: color.neutral[950]
+          ["dark-hover"]: color.neutral[950],
         }
       }
     },
