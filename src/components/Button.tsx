@@ -20,9 +20,9 @@ export const buttonStyles = cva(["transition-colors"], {
         "w-10",
         "h-10",
         "flex",
-        "item-center",
+        "items-center",
         "justify-center",
-        "p-25"
+        "p-2.5",
       ],
     },
   },
@@ -34,7 +34,7 @@ export const buttonStyles = cva(["transition-colors"], {
 
 type ButtonProps = VariantProps<typeof buttonStyles> & ComponentProps<"button">
 
-export function Menu_Button({ variant, size, className, ...props }: ButtonProps) {
+export function Button({ variant, size, className, ...props }: ButtonProps) {
   return (
     <button
       {...props}

@@ -1,0 +1,15 @@
+export const categories=[
+    "All",
+    "UIT",
+    "UEL",
+    "JavaScript",
+    "TypeScript",
+    "Programming",
+    "Hiking",
+    "Next.js",
+    "coding",
+    "Vladimir Putin",
+    "Kim Jong-un",
+    "Ngoc Chinh",
+    "Nam Em",  
+]
