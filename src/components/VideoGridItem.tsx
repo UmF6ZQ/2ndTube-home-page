@@ -35,12 +35,16 @@ export function VideoGridItem({
   const videoRef = useRef<HTMLVideoElement>(null);
   useEffect(() => {
     if (videoRef.current == null) return;
-    if (isVideoPlaying && videoRef.current.paused) {
+    if (
+      isVideoPlaying &&
+      videoRef.current.paused &&
+      videoRef.current.readyState > 2
+    ) {
       videoRef.current.currentTime = 0;
       videoRef.current.play();
     } else {
-      videoRef.current.pause();
       videoRef.current.currentTime = 0;
+      videoRef.current.pause();
     }
   }, [isVideoPlaying]);
 

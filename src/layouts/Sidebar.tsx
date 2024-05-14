@@ -45,7 +45,7 @@ export function Sidebar() {
           title="Subscription"
           url="/subscription"
         />
-        <SmallSidebarItem Icon={Library} title="Library" url="library" />
+        <SmallSidebarItem Icon={Library} title="Library" url="/library" />
       </aside>
       {isSmallOpen && (
         <div
@@ -54,7 +54,7 @@ export function Sidebar() {
         ></div>
       )}
       <aside
-        className={`w-56 lg:sticky absolute top-0 hover:overflow-y-auto scrollbar-hidden pb-4 flex-col gap-2 px-2 ${
+        className={`w-56 lg:sticky absolute top-0 hover:overflow-y-auto overflow-hidden pb-4 flex-col gap-2 px-2 ${
           isLargeOpen ? "lg:flex" : "lg:hidden"
         } ${
           isSmallOpen
