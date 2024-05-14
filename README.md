@@ -9,6 +9,9 @@ You will also see any lint errors in the console.
 ### `Demo photo`
 
 ![alt text](./image_github/image.png)
+
 ![alt text](./image_github/image-1.png)
+
 ![alt text](./image_github/image-2.png)
+
 ![alt text](./image_github/image-3.png)
